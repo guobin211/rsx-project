@@ -1,8 +1,8 @@
-import { parse } from '@swc/core';
+import { parse } from "@swc/core";
 
 export async function ast_parse(code) {
   const ast = await parse(code, {
-    syntax: 'ecmascript',
+    syntax: "ecmascript",
     comments: false,
     script: false,
     isModule: false,

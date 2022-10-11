@@ -1,0 +1,7 @@
+[package]
+name = "rsx-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["michaelbguo <michaelbguo@tencent.com>"]
+
+[dependencies]

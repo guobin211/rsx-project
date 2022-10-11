@@ -2,7 +2,7 @@
 
 ## The Rust SSR Web Framework
 
-``` sveltehtml
+```sveltehtml
 <script lang="rust">
 use rsx::server::{ Request, Response, fetch };
 

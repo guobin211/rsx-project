@@ -1,5 +1,5 @@
 {
-  "name": "rsx-compiler",
+  "name": "rsx-cli",
   "version": "1.0.0",
   "author": "michaelbguo@tencent.com",
   "dependencies": {
