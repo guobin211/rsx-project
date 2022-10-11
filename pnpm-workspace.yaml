@@ -1,5 +1,6 @@
 packages:
-  - 'crates/*'
+  - 'www'
+  - 'doc'
   - 'examples/*'
   - 'extensions/*'
   - 'packages/*'

@@ -1,6 +1,9 @@
 {
   "name": "rsx-runtime",
   "version": "1.0.0",
-  "dependencies": {
+  "devDependencies": {
+    "typescript": "^4",
+    "@swc/core": "latest",
+    "@swc/cli": "latest"
   }
 }

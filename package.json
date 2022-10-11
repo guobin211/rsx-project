@@ -1,16 +1,18 @@
 {
   "name": "rsx-project",
   "version": "0.1.0",
+  "scripts": {
+    "test": "vitest run"
+  },
   "author": "michaelbguo@tencent.com",
   "devDependencies": {
-    "@types/node": "^18.8.4",
+    "@types/node": "^18",
     "@swc/core": "latest",
     "@swc/cli": "latest",
-    "@swc/jest": "latest",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.8.4",
-    "jest": "^29.1.2",
-    "@types/jest": "^29.1.2"
+    "vite": "latest",
+    "vitest": "latest",
+    "ts-node": "^10",
+    "typescript": "^4"
   },
   "engines": {
     "node": ">=18"
@@ -19,6 +21,7 @@
   "workspaces": [
     "extensions",
     "packages",
-    "www"
+    "www",
+    "doc"
   ]
 }

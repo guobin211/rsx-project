@@ -4,6 +4,7 @@
   "dependencies": {
   },
   "devDependencies": {
+    "typescript": "^4",
     "@swc/core": "latest",
     "@swc/cli": "latest"
   }
