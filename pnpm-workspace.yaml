@@ -1,0 +1,6 @@
+packages:
+  - 'crates/*'
+  - 'examples/*'
+  - 'extensions/*'
+  - 'packages/*'
+  - 'tests/*'

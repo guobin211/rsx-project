@@ -1,0 +1,15 @@
+target
+node_modules
+dist
+build
+cache
+local
+
+.idea
+.cache
+.local
+
+*.vsix
+package-lock.json
+yarn.lock
+*.log

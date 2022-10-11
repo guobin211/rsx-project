@@ -1,0 +1,10 @@
+{
+  "name": "rsx-compiler",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@swc/core": "latest",
+    "@swc/cli": "latest"
+  }
+}

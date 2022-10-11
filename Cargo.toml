@@ -1,0 +1,19 @@
+[package]
+name = "rsx-project"
+version = "0.1.0"
+edition = "2021"
+default-run= "rsx"
+
+[[bin]]
+name="app_server"
+path="src/bin/app_server.rs"
+
+[[bin]]
+name="rsx"
+path="src/main.rs"
+
+[dependencies]
+tokio = "^1"
+serde = "^1"
+serde_json = "^1"
+actix-web = "^4"
